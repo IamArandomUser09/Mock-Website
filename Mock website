@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Wallet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .feature {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .feature img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smart Wallet</h1>
+        <p>The Future of Secure and Intelligent Wallets</p>
+    </header>
+
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Smarter Wallet, Smarter Life</h1>
+    </section>
+
+    <section id="features">
+        <h2 style="text-align: center; margin: 20px 0;">Features</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Secure">
+                <h3>Advanced Security</h3>
+                <p>Biometric authentication and real-time theft alerts ensure your wallet stays safe.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Slim Design">
+                <h3>Sleek Design</h3>
+                <p>Ultra-slim and stylish, crafted for convenience without compromising on features.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Tracker">
+                <h3>Integrated GPS</h3>
+                <p>Locate your wallet anytime, anywhere with built-in GPS tracking technology.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Smart Tech">
+                <h3>Smart Technology</h3>
+                <p>Connect to your smartphone for notifications, balance checks, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 style="text-align: center; margin: 20px 0;">About Us</h2>
+        <p style="padding: 0 20px; text-align: center;">
+            At Smart Wallet, we’re redefining what a wallet can be. With cutting-edge technology and thoughtful design, we aim to provide solutions that seamlessly blend security, convenience, and style. Join us in embracing the wallet of the future.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2 style="text-align: center; margin: 20px 0;">Contact Us</h2>
+        <p style="text-align: center;">Have questions or feedback? We'd love to hear from you!</p>
+        <form style="display: flex; flex-direction: column; align-items: center;">
+            <input type="text" placeholder="Your Name" style="padding: 10px; margin: 5px; width: 300px;">
+            <input type="email" placeholder="Your Email" style="padding: 10px; margin: 5px; width: 300px;">
+            <textarea placeholder="Your Message" rows="5" style="padding: 10px; margin: 5px; width: 300px;"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Smart Wallet. All rights reserved.</p>
+    </footer>
+</body>
+</html>
